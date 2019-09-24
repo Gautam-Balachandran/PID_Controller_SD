@@ -3,6 +3,11 @@
 [![Coverage Status](https://coveralls.io/repos/github/gautam-balachandran/PID_Controller_SD/badge.svg?branch=master)](https://coveralls.io/github/gautam-balachandran/PID_Controller_SD?branch=master)
 ---
 
+## Author
+
+-Driver : gautam-balachandran
+-Navigator : swagquotient0
+
 ## Overview
 
 Simple starter C++ project with:
