@@ -5,8 +5,8 @@
 
 ## Author
 
--Driver : gautam-balachandran
--Navigator : swagquotient0
+- Driver : gautam-balachandran
+- Navigator : swagquotient0
 
 ## Overview
 
