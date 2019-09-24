@@ -1,6 +1,6 @@
 # C++ Boilerplate
 [![Build Status](https://travis-ci.org/Gautam-Balachandran/PID_Controller_SD.svg?branch=master)](https://travis-ci.org/gautam-balachandran/PID_Controller_SD)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/gautam-balachandran/PID_Controller_SD/badge.svg?branch=master)](https://coveralls.io/github/gautam-balachandran/PID_Controller_SD?branch=master)
 ---
 
 ## Overview
