@@ -13,14 +13,14 @@ class PID_Controller {
   /**
    * @brief double values for k_p, k_i and k_d
    */
-  double k_p=2.5,k_d=4.0,k_i=3.3;
+  double kP=2.5,kD=4.0,kI=3.3;
  public:
   /**
      * @brief Computes the velocity for the PID controller
      * @param  set point and the target velocity
      * @return computed velocity
      */
-  double compute_velocity(double set_point, double target_vel);
+  double compute_velocity(double setPoint, double targetVel);
 
 };
 
