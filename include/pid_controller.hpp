@@ -8,7 +8,7 @@
 #ifndef INCLUDE_PID_CONTROLLER_HPP_
 #define INCLUDE_PID_CONTROLLER_HPP_
 
-class PID_Controller {
+class PIDController {
  private:
   /**
    * @brief double values for k_p, k_i and k_d
@@ -20,7 +20,7 @@ class PID_Controller {
      * @param  set point and the target velocity
      * @return computed velocity
      */
-  double compute_velocity(double setPoint, double targetVel);
+  double computeVelocity(double setPoint, double targetVel);
 
 };
 
