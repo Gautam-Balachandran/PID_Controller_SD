@@ -3,10 +3,15 @@
 [![Coverage Status](https://coveralls.io/repos/github/Gautam-Balachandran/PID_Controller_SD/badge.svg?branch=master)](https://coveralls.io/github/Gautam-Balachandran/PID_Controller_SD?branch=master)(https://coveralls.io/github/gautam-balachandran/PID_Controller_SD?branch=master)
 ---
 
-## Author
+## Authors - Part 1
 
-- Driver : gautam-balachandran
-- Navigator : swagquotient0
+- Driver : [gautam-balachandran](https://github.com/gautam-balachandran)
+- Navigator : [swagquotient0](https://github.com/swagquotient0)
+
+## Authors - Part 2
+
+- Driver : [namangupta98](https://github.com/namangupta98)
+- Navigator : [abhi1625](https://github.com/abhi1625)
 
 ## Overview
 

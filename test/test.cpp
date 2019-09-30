@@ -3,6 +3,7 @@
  *
  *  Created on: Sep 24, 2019
  *      Author: gautam
+ *  Copyright : This code is developed for ENPM808X. Do not copy without citation.
  */
 
 /**
@@ -20,8 +21,8 @@
 TEST(PIDControllerTest, CheckValuePass) {
   PIDController pidController;
   double expectPass = 140.14;
-  double val = pidController.computeVelocity(10.0,24.3);
-  EXPECT_NEAR(expectPass,val,0.01);// Should Pass
+  double val = pidController.computeVelocity(10.0, 24.3);
+  EXPECT_NEAR(expectPass, val, 0.01);  // Should Pass
 }
 
 /**
@@ -29,7 +30,7 @@ TEST(PIDControllerTest, CheckValuePass) {
  */
 TEST(PIDControllerTest, checkDoublePass) {
   PIDController pidController;
-  double val = pidController.computeVelocity(10.0,24.3);
+  double val = pidController.computeVelocity(10.0, 24.3);
   // For Pass check
   EXPECT_EQ(typeid(val), typeid(double));
 }

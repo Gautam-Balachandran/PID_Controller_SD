@@ -3,7 +3,9 @@
  *
  *  Created on: Sep 24, 2019
  *      Author: gautam
+ *  Copyright : This code is developed for ENPM808X. Do not copy without citation.
  */
+
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
