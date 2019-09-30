@@ -13,7 +13,7 @@
  */
 
 #include <iostream>
-#include "../include/pid_controller.hpp"s
+#include "../include/pid_controller.hpp"
 
 /**
  * @brief Computes the velocity for the PID controller
@@ -22,7 +22,7 @@
  */
 
 double PIDController::computeVelocity(double setPt, double targetVelocity) {
-  // Error is (expected value - actual calculated value)
+  // Error is (expected value - actual calculated value
   double err = targetVelocity - setPt;
   double errorDot = err - prevError;
   itError += err;
