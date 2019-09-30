@@ -24,7 +24,7 @@
 double PIDController::computeVelocity(double setPt, double targetVelocity) {
   // Error is the difference between the expected value and the actual calculated value
   double err = targetVelocity - setPt;
-  return ((PIDController::kP + PIDController::kI + PIDController::kD)
-      * err);
+  double errorDot = 0.0; 
+  return ((PIDController::kP * err + PIDController::kD * errorDot));
 }
 
