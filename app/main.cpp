@@ -3,17 +3,17 @@
  *
  *  Created on: Sep 24, 2019
  *      Author: gautam
+ *  Copyright : This code is developed for ENPM808X. Do not copy without citation.
  */
 
 #include <iostream>
 #include "pid_controller.hpp"
 
-int main()
-{
+int main() {
   // Creates pid_controller object
   PIDController pidController;
-  double val = (double)pidController.computeVelocity(10.0,24.3);
+  double val = pidController.computeVelocity(10.0, 24.3);
   // prints value
-  std::cout<<"Value : "<<val<<std::endl;
+  std::cout << "Value : " << val << std::endl;
   return 0;
 }
