@@ -27,12 +27,12 @@ TEST(PIDControllerTest, CheckValuePass) {
 /**
  * @brief Test case that checks if the computed value is different
  */
-// TEST(PIDControllerTest, CheckValueFail) {
-//   PIDController pidController;
-//   double expectFail = 140;
-//   double val = pidController.computeVelocity(10.0,24.3);
-//   EXPECT_NEAR(expectFail,val,0.01);// Should fail
-// }
+TEST(PIDControllerTest, CheckValueFail) {
+  PIDController pidController;
+  double expectFail = 140;
+  double val = pidController.computeVelocity(10.0,24.3);
+  EXPECT_NEAR(expectFail,val,0.01);// Should fail
+}
 
 /**
  * @brief Test case to check if the computed value is type double
@@ -47,9 +47,9 @@ TEST(PIDControllerTest, checkDoublePass) {
 /**
  * @brief Test case to check if the computed value is not type int
  */
-// TEST(PIDControllerTest, checkDoubleFail) {
-//   PIDController pidController;
-//   double val = pidController.computeVelocity(10.0,24.3);
-//   // For failure check
-//   EXPECT_EQ(typeid(val), typeid(int));
-// }
+TEST(PIDControllerTest, checkDoubleFail) {
+  PIDController pidController;
+  double val = pidController.computeVelocity(10.0,24.3);
+  // For failure check
+  EXPECT_EQ(typeid(val), typeid(int));
+}
